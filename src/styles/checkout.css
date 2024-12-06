@@ -1,0 +1,123 @@
+.checkout-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .checkout-form {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .checkout-form h2 {
+    color: #0075BE;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .checkout-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkout-confirm-btn {
+    background-color: #0075BE;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .checkout-confirm-btn:hover {
+    background-color: #005BB5;
+  }
+  
+  .checkout-error {
+    color: red;
+    margin-bottom: 15px;
+  }
+  
+  .checkout-product-list {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .checkout-product-list h2 {
+    color: #0075BE;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-table th,
+  .checkout-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .checkout-table th {
+    background-color: #f9f9f9;
+    color: #0075BE;
+  }
+  
+  .checkout-table td img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .checkout-delete-btn {
+    background-color: #D2691E;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .checkout-delete-btn:hover {
+    background-color: #A0522D;
+  }
+  
+  .checkout-summary {
+    margin-top: 20px;
+  }
+  
+  .checkout-summary p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .checkout-vaciar-btn {
+    background-color: #D9534F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .checkout-vaciar-btn:hover {
+    background-color: #C9302C;
+  }
+  

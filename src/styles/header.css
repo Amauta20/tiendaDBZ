@@ -1,0 +1,60 @@
+/* Cabecera completa */
+.header {
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Línea superior */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; /* Fondo blanco */
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-info span {
+  font-size: 16px;
+  color: #333333; /* Texto negro */
+}
+
+.user-info a {
+  color: #D2691E; /* Ladrillo claro */
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.user-info a:hover {
+  color: #555555; /* Gris oscuro */
+}
+
+/* Menú de navegación */
+.header-nav {
+  display: flex;
+  justify-content: center;
+  background-color: #F1F1F1; /* Fondo gris claro */
+  padding: 10px 0;
+  gap: 20px;
+}
+
+.header-nav a {
+  color: #D2691E; /* Ladrillo claro */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.header-nav a:hover {
+  color: #555555; /* Gris oscuro */
+}

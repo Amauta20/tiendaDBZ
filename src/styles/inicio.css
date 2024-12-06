@@ -1,0 +1,40 @@
+.inicio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  .inicio-container h1 {
+    text-align: center;
+    color: #0075BE;
+    margin-bottom: 20px;
+  }
+  
+  .inicio-container h2 {
+    color: #D2691E;
+    margin-top: 20px;
+  }
+  
+  .inicio-container p {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .inicio-container ul {
+    list-style-type: disc;
+    padding-left: 40px;
+  }
+  
+  .inicio-container ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .inicio-container ul li strong {
+    color: #0075BE;
+  }
+  

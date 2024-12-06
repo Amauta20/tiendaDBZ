@@ -1,0 +1,71 @@
+/* Estilos globales */
+:root {
+    --color-primary: #0075BE; /* Azul del logo de Cibertec */
+    --color-secondary: #FFFFFF; /* Blanco */
+    --color-background: #F1F1F1; /* Gris claro */
+    --color-text: #333333; /* Negro texto */
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: var(--color-primary);
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--color-primary);
+  }
+  
+  button {
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #f3f5f7;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Botones de acción */
+.producto-card button, 
+.productos-carrito button, 
+.carrito-resumen button, 
+.btn-detalle, 
+.btn-checkout {
+  background-color: #c7c4c4; /* Gris oscuro */
+  color: white; /* Texto blanco */
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover para todos los botones */
+.producto-card button:hover, 
+.productos-carrito button:hover, 
+.carrito-resumen button:hover, 
+.btn-detalle:hover, 
+.btn-checkout:hover {
+  background-color: #c6c4c4; /* Gris más claro */
+  color: #ffffff; /* Asegura que el texto se mantenga blanco */
+}
+  
