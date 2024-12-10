@@ -16,6 +16,11 @@ const Contacto = () => {
       ...formData,
       [e.target.name]: e.target.value,
     });
+
+    // Elimina el mensaje de error al cambiar algún campo
+    if (errorMessage) {
+      setErrorMessage('');
+    }
   };
 
   const handleFormSubmit = (e) => {
@@ -27,7 +32,6 @@ const Contacto = () => {
       return;
     }
 
-    // Simulación de envío exitoso
     setSuccessMessage('Tu mensaje ha sido enviado con éxito. ¡Gracias por contactarnos!');
     setErrorMessage('');
     setFormData({
