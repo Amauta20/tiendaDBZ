@@ -111,6 +111,6 @@ Estas librerías son útiles para mejorar la experiencia de desarrollo, como el 
 Ejecuta el siguiente comando para instalar todas las dependencias principales:
 ```bash
 npm install react react-dom react-router-dom axios
-```bash
+
 npm install --save-dev jest @testing-library/react @testing-library/jest-dom @testing-library/user-event
 
