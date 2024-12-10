@@ -114,3 +114,5 @@ npm install react react-dom react-router-dom axios
 
 npm install --save-dev jest @testing-library/react @testing-library/jest-dom @testing-library/user-event
 
+npm install --save-dev jest-environment-jsdom
+
