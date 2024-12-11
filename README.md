@@ -110,7 +110,8 @@ Estas librerías son útiles para mejorar la experiencia de desarrollo, como el 
 ### 1. Dependencias Principales
 Ejecuta el siguiente comando para instalar todas las dependencias principales:
 ```bash
-npm install react react-dom react-router-dom axios
+
+npm install react react-dom react-router-dom react-scripts @testing-library/react @testing-library/jest-dom @testing-library/user-event jest babel-jest @babel/preset-env @babel/preset-react identity-obj-proxy eslint eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-testing-library
 
 npm install --save-dev jest @testing-library/react @testing-library/jest-dom @testing-library/user-event
 
